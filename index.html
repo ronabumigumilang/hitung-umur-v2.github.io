@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <center>
     <div class="container">
         <h1>Age Checker</h1>
         <div class="col-md-3">
-          <div class="form-group">
-            <label for="">Your BirthDate</label>
+          <div class="form-group baris">
+            <label for="">Masukkan Nama : </label>
+            <input type="text" class="form-control" id="nama">
+          </div>
+          <div class="form-group baris">
+            <label for="">Your BirthDate : </label>
             <input type="date" class="form-control" id="yourbirth">
           </div>
           <div class="form-group">
@@ -19,11 +25,14 @@
           </div>
           <div class="form-group">
             <div class="well">
-              Your age : <b><span id="yourAge"></span>
+            <p class="p">nama kamu adalah :</p><span id="hasil-nama"></span>
+            <br>
+            <p class="p">Your age : </p><span id="yourAge" class="yourAge"></span>
             </div>
           </div>
         </div>
       </div>
+    </center>
       <script src="script.js">
 
       </script>

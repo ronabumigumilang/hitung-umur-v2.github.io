@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(214, 212, 212);
+}
+
+.well {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* #hasil-nama span {
+    display: inline-block;
+} */
+
+.p {
+    display: inline-block;
+}
+
+.baris {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    /* background-color: red; */
+    padding: 2px;
+}
